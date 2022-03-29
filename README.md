@@ -5,27 +5,38 @@
 cmdlets.
 As an example you can use “Get-Service” or “Out-GridView”
 Notes:
-Get-Help Get-Help
-Get-Help New-Item
-Get-Help Get-Alias
-Get-Help Get-AuthenticodeSignature
-Get-Help Get-ControlPanelItem
-
+#### Get-Help Get-Help
 ![EJERCICIO31 1](https://user-images.githubusercontent.com/91564729/160583294-2ad54a38-2aad-4849-9111-43787f2449e3.JPG)
+#### Get-Help New-Item
 ![EJERCICIO-3-1 2](https://user-images.githubusercontent.com/91564729/160583297-ff26cb0c-ac04-40ad-954f-56e32287ec5e.JPG)
+#### Get-Help Get-Alias
 ![EJERCICIO-3-1 3](https://user-images.githubusercontent.com/91564729/160583301-849fff63-dff6-422f-b6b9-909d4b5b8e84.JPG)
+#### Get-Help Get-AuthenticodeSignature
 ![EJERCICIO-3-1 4](https://user-images.githubusercontent.com/91564729/160583204-86944cd5-3153-4eca-888a-3565ee73092d.JPG)
+#### }}
+Get-Help Get-ControlPanelItem
 ![EJERCICIO-3-1 5](https://user-images.githubusercontent.com/91564729/160583212-8706c8c6-0c4b-44c8-894f-89b234d25928.JPG)
 
 ## Task 2
 ### Use “Get-Help” with the “–Example” parameter for the
 ### 5 cmdlets you discovered more about in task 1.
-Notes:
-Get-Help Get-Help -Examples
-Get-Help New-Item -Examples
-Get-Help Get-Alias -Examples
-Get-Help Get-AuthenticodeSignature -Examples
-Get-Help Get-ControlPanelItem -Examples
+
+####Get-Help Get-Help -Examples
+![EJERCICIO-3-2 1](https://user-images.githubusercontent.com/91564729/160656496-681c1dee-6592-444c-b1e6-c5dbcbe14acb.JPG)
+
+#### Get-Help New-Item -Examples
+![EJERCICIO-3-2 2](https://user-images.githubusercontent.com/91564729/160656501-684bde1e-0a6f-45a8-943a-6305d69d84a8.JPG)
+#### Get-Help Get-Alias -Examples
+![EJERCICIO-3-2 3](https://user-images.githubusercontent.com/91564729/160656502-1694ae62-4658-4719-919b-f1ae801e1252.JPG)
+#### Get-Help Get-AuthenticodeSignature -Examples
+![EJERCICIO-3-2 4](https://user-images.githubusercontent.com/91564729/160656504-998ba864-16de-4cf3-99f5-030bc450b5a0.JPG)
+
+#### Get-Help Get-ControlPanelItem -Examples
+![EJERCICIO-3-2 5](https://user-images.githubusercontent.com/91564729/160656505-8289c831-d6cd-416a-b089-8e3d3d1ec4cf.JPG)
+
+
+
+
 
 
 ## Task 3
@@ -33,17 +44,18 @@ Get-Help Get-ControlPanelItem -Examples
 Maximo\PowerShell\Workshop1\%USERNAME%
 ### The cmdlet to make a file and a new directory starts with “New”
 Notes:
-New-Item -Path C:\ -Name Expo -ItemType Directory
-New-Item -Path C:\Sudoblark -Name PowerShell -ItemType Directory
-New-Item -Path C:\Sudoblark\PowerShell -Name Workshop1 -ItemType Directory
-New-Item -Path C:\Sudoblark\PowerShell\Workshop1 -Name bclark -ItemType Directory
-New-Item -Path C:\Sudoblark\PowerShell\Workshop1\bclark\ -Name Testfile.txt -ItemType File
-
-
+#### New-Item -Path C:\ -Name Expo -ItemType Directory
 ![EJERCICIO-3-3 1](https://user-images.githubusercontent.com/91564729/160583217-ba59de88-6992-49d0-9ea0-32790cf07986.JPG)
+#### New-Item -Path C:\Sudoblark -Name PowerShell -ItemType Directory
 ![EJERCICIO-3-3 2](https://user-images.githubusercontent.com/91564729/160583220-33303547-7dd9-4c0c-b3eb-ac9f1f8c9ce5.JPG)
+
+#### New-Item -Path C:\Sudoblark\PowerShell -Name Workshop1 -ItemType Directory
 ![EJERCICIO-3-3 3](https://user-images.githubusercontent.com/91564729/160583223-89d7185b-cc74-4f76-9b7f-429346182245.JPG)
+#### New-Item -Path C:\Sudoblark\PowerShell\Workshop1 -Name bclark -ItemType Directory
 ![EJERCICIO-3-3 4](https://user-images.githubusercontent.com/91564729/160583228-d5dea15e-b5a3-46e6-b588-3d35cefb5f44.JPG)
+
+#### New-Item -Path C:\Sudoblark\PowerShell\Workshop1\bclark\ -Name Testfile.txt -ItemType File
+
 ![EJERCICIO-3-3 5](https://user-images.githubusercontent.com/91564729/160583234-3b7aabf4-3851-44cb-9555-9142f0dd6dbd.JPG)
 
 ## Task 4
@@ -52,9 +64,9 @@ three datatypes we’ve covered: “Boolean”, “String”
 and “Int”
 ### The cmdlet you need starts with “Add”
 Notes:
-Add-Content -Path C:\Sudoblark\PowerShell\Workshop1\bclark\Testfile.txt -Value True
-Add-Content -Path C:\Sudoblark\PowerShell\Workshop1\bclark\Testfile.txt -Value "Hello"
-Add-Content -Path C:\Sudoblark\PowerShell\Workshop1\bclark\Testfile.txt -Value 42
+#### Add-Content -Path C:\Sudoblark\PowerShell\Workshop1\bclark\Testfile.txt -Value True
+#### Add-Content -Path C:\Sudoblark\PowerShell\Workshop1\bclark\Testfile.txt -Value "Hello"
+#### Add-Content -Path C:\Sudoblark\PowerShell\Workshop1\bclark\Testfile.txt -Value 42
 
 
 ![EJERCICIO-3-4](https://user-images.githubusercontent.com/91564729/160583237-46962f25-ee31-4d7c-934f-6a2bedb62862.JPG)
@@ -82,4 +94,6 @@ Set-Content -Path C:\Sudoblark\PowerShell\Workshop1\bclark\Testfile.txt -Value "
 ![EJERCICIO-3-9 3](https://user-images.githubusercontent.com/91564729/160583281-e774cc6d-f139-4e81-b7af-04286ef6f302.JPG)
 ![EJERCICIO-3-9 4](https://user-images.githubusercontent.com/91564729/160583283-eafd88e3-abcc-496c-8e7d-ca5618423b27.JPG)
 ![EJERCICIO-3-9 5](https://user-images.githubusercontent.com/91564729/160583291-0236228f-25ec-4417-97ec-cb631a78a165.JPG)
+
+## Task10
 
