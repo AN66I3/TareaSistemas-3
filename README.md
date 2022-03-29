@@ -1,3 +1,4 @@
+#### NOMBRE: ANGGIE BARZOLA
 # TareaSistemas-3
 ## Primitive Datatype
 ## Task 1
@@ -89,11 +90,25 @@ Set-Content -Path C:\Sudoblark\PowerShell\Workshop1\bclark\Testfile.txt -Value "
 ![EJERCICIO-3-8](https://user-images.githubusercontent.com/91564729/160583270-ddd78c6f-56c5-4d77-971f-be33a37853cc.JPG)
 
 ## Task9
+#### Get-Help | Out-GridView
 ![EJERCICIO-3-9 1](https://user-images.githubusercontent.com/91564729/160583273-f90960fb-0af6-4ab7-9455-39c44c738653.JPG)
+#### New-Item | Out-GridView
 ![EJERCICIO-3-9 2](https://user-images.githubusercontent.com/91564729/160583277-4c1a9146-3d75-47e1-a157-dc7302195e4e.JPG)
+
+#### Get-Alias | Out-GridView
 ![EJERCICIO-3-9 3](https://user-images.githubusercontent.com/91564729/160583281-e774cc6d-f139-4e81-b7af-04286ef6f302.JPG)
+
+#### Get-AuthenticodeSignature | Out-GridView
 ![EJERCICIO-3-9 4](https://user-images.githubusercontent.com/91564729/160583283-eafd88e3-abcc-496c-8e7d-ca5618423b27.JPG)
+
+#### Get-ControlPanelItem | Out-GridView
 ![EJERCICIO-3-9 5](https://user-images.githubusercontent.com/91564729/160583291-0236228f-25ec-4417-97ec-cb631a78a165.JPG)
 
+
+
+
+
 ## Task10
+#### Documentación Power Shell
+![image](https://user-images.githubusercontent.com/91564729/160661855-a70079c6-8d5e-4dba-bd24-309281571d7c.png)
 
